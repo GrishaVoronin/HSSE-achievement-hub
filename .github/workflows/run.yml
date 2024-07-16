@@ -10,4 +10,4 @@ jobs:
             - name: Checkout Code
               uses: actions/checkout@v4
             - name: Install environment
-              run: npm init
+              run: npx hardhat
